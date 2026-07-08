@@ -4,6 +4,7 @@ import matchesData from '@/data/matches.json';
 import type { Match } from '@/lib/types';
 import { ArrowLeft, Calendar, MapPin, Target, CircleAlert, Ban } from 'lucide-react';
 import Image from 'next/image';
+import { asset } from '@/lib/utils';
 
 const matches = matchesData as Match[];
 
@@ -46,7 +47,7 @@ export default async function MatchReportPage({ params }: Props) {
             <div className="flex items-center justify-center gap-10 sm:gap-20">
               <div className="text-center">
                 <div className="w-20 h-20 relative mx-auto mb-3">
-                  <Image src="/images/logo.png" alt="Gheny FC" fill className="object-contain drop-shadow-lg" />
+                  <Image src={asset("/images/logo.png")} alt="Gheny FC" fill className="object-contain drop-shadow-lg" />
                 </div>
                 <p className="font-bold text-white text-lg">Gheny FC</p>
               </div>

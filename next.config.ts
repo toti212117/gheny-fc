@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: isGithubPages ? "/gheny-fc" : "",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isGithubPages ? "/gheny-fc" : "",
+  },
 };
 
 export default nextConfig;

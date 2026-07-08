@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { ExternalLink } from 'lucide-react';
+import { asset } from '@/lib/utils';
 
 function InstagramIcon({ size = 18 }: { size?: number }) {
   return (
@@ -19,7 +20,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 relative">
-                <Image src="/images/logo.png" alt="Gheny FC" fill className="object-contain" />
+                <Image src={asset("/images/logo.png")} alt="Gheny FC" fill className="object-contain" />
               </div>
               <span className="font-black text-white text-xl">
                 GHENY <span className="text-[#e94560]">FC</span>

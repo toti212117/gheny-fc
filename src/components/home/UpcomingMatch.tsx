@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { UpcomingMatch as IUpcomingMatch } from '@/lib/types';
 import { Calendar, Clock, MapPin } from 'lucide-react';
 import Image from 'next/image';
+import { asset } from '@/lib/utils';
 
 interface Props {
   match: IUpcomingMatch;
@@ -43,7 +44,7 @@ export default function UpcomingMatch({ match }: Props) {
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 relative">
               <div className="text-center">
                 <div className="w-20 h-20 relative mx-auto mb-3">
-                  <Image src="/images/logo.png" alt="Gheny FC" fill className="object-contain drop-shadow-lg" />
+                  <Image src={asset("/images/logo.png")} alt="Gheny FC" fill className="object-contain drop-shadow-lg" />
                 </div>
                 <p className="font-bold text-white">Gheny FC</p>
               </div>

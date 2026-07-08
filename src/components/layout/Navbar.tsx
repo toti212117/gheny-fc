@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import { asset } from '@/lib/utils';
 
 function InstagramIcon({ size = 18 }: { size?: number }) {
   return (
@@ -33,7 +34,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-9 h-9 relative group-hover:scale-110 transition-transform">
-              <Image src="/images/logo.png" alt="Gheny FC" fill className="object-contain" />
+              <Image src={asset("/images/logo.png")} alt="Gheny FC" fill className="object-contain" />
             </div>
             <span className="font-black text-white text-lg tracking-wide">
               GHENY <span className="text-[#e94560]">FC</span>

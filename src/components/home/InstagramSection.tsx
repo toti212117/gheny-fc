@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
 import Image from 'next/image';
+import { asset } from '@/lib/utils';
 
 export default function InstagramSection() {
   return (
@@ -15,7 +16,7 @@ export default function InstagramSection() {
           transition={{ duration: 0.6 }}
         >
           <div className="w-24 h-24 relative mx-auto mb-6">
-            <Image src="/images/logo.png" alt="Gheny FC" fill className="object-contain drop-shadow-2xl" />
+            <Image src={asset("/images/logo.png")} alt="Gheny FC" fill className="object-contain drop-shadow-2xl" />
           </div>
 
           <h2 className="text-3xl font-black text-white mb-3">Follow Us on Instagram</h2>

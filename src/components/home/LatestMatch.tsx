@@ -5,6 +5,7 @@ import { Match } from '@/lib/types';
 import { Calendar, MapPin, Target, CircleAlert } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { asset } from '@/lib/utils';
 
 interface Props {
   match: Match;
@@ -42,7 +43,7 @@ export default function LatestMatch({ match }: Props) {
               <div className="flex items-center justify-center gap-8 sm:gap-16">
                 <div className="text-center">
                   <div className="w-16 h-16 relative mx-auto mb-3">
-                    <Image src="/images/logo.png" alt="Gheny FC" fill className="object-contain drop-shadow-lg" />
+                    <Image src={asset("/images/logo.png")} alt="Gheny FC" fill className="object-contain drop-shadow-lg" />
                   </div>
                   <p className="font-bold text-white text-lg">Gheny FC</p>
                 </div>

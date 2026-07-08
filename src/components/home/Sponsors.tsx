@@ -2,11 +2,12 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { asset } from '@/lib/utils';
 
 const sponsors = [
   {
     name: "Chipper's Pub",
-    logo: '/images/sponsor-chippers.png',
+    logo: asset('/images/sponsor-chippers.png'),
     url: 'https://chipperspubmeadville.com/',
     tagline: 'Official Club Sponsor',
   },

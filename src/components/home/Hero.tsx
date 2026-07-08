@@ -5,25 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Users, Trophy, ChevronDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { asset } from '@/lib/utils';
 
-const slides = [
-  '/images/slide-1.jpg',
-  '/images/slide-2.jpg',
-  '/images/slide-3.jpg',
-  '/images/slide-4.jpg',
-  '/images/slide-5.jpg',
-  '/images/slide-6.jpg',
-  '/images/slide-7.jpg',
-  '/images/slide-8.jpg',
-  '/images/slide-9.jpg',
-  '/images/slide-10.jpg',
-  '/images/slide-11.jpg',
-  '/images/slide-12.jpg',
-  '/images/slide-13.jpg',
-  '/images/slide-14.jpg',
-  '/images/slide-15.jpg',
-  '/images/slide-16.jpg',
-];
+const slides = [...Array(16)].map((_, i) => asset(`/images/slide-${i + 1}.jpg`));
 
 const INTERVAL = 4000; // 4 seconds per photo
 
@@ -90,7 +74,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="mx-auto w-36 h-36 relative mb-8 drop-shadow-2xl"
         >
-          <Image src="/images/logo.png" alt="Gheny FC Crest" fill className="object-contain" priority />
+          <Image src={asset('/images/logo.png')} alt="Gheny FC Crest" fill className="object-contain" priority />
         </motion.div>
 
         <motion.h1
