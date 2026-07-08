@@ -1,0 +1,15 @@
+{
+  "name": "Gheny FC",
+  "founded": 2024,
+  "season": "2026",
+  "league": "GPSLO19 Sunday League",
+  "leagueUrl": "https://app.teampass.com/PAWest/GPSLO19/Team/137146",
+  "instagram": "https://www.instagram.com/ghenyfc",
+  "instagramHandle": "@ghenyfc",
+  "homeVenue": "Volunteer Field, Pittsburgh PA",
+  "colors": {
+    "primary": "#1a1a2e",
+    "accent": "#e94560",
+    "secondary": "#16213e"
+  }
+}

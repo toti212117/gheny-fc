@@ -1,0 +1,34 @@
+[
+  {
+    "id": "match-007",
+    "date": "2026-07-07",
+    "kickoffTime": "6:00 PM",
+    "opponent": "Three Rivers FC",
+    "homeAway": "Away",
+    "venue": "Hamilton Park"
+  },
+  {
+    "id": "match-008",
+    "date": "2026-07-12",
+    "kickoffTime": "6:00 PM",
+    "opponent": "Sonder FC",
+    "homeAway": "Away",
+    "venue": "North Strabane Park Soccer Field"
+  },
+  {
+    "id": "match-009",
+    "date": "2026-07-19",
+    "kickoffTime": "2:00 PM",
+    "opponent": "Plum Mustangs 2",
+    "homeAway": "Away",
+    "venue": "Plum High School Turf Field"
+  },
+  {
+    "id": "match-010",
+    "date": "2026-07-26",
+    "kickoffTime": "6:00 PM",
+    "opponent": "Sonder FC",
+    "homeAway": "Home",
+    "venue": "Russellton Soccer Field #2"
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "match-006",
+    "date": "2026-06-28",
+    "kickoffTime": "12:00 PM",
+    "opponent": "MLSA Juniors",
+    "homeAway": "Away",
+    "venue": "Mt Lebanon High School — Upper Practice Field (Rockpile)",
+    "competition": "GPSLO19 Regular Season",
+    "goalsFor": 1,
+    "goalsAgainst": 0,
+    "result": "W",
+    "goalScorers": [],
+    "assists": [],
+    "yellowCards": [],
+    "redCards": [],
+    "notes": ""
+  },
+  {
+    "id": "match-005",
+    "date": "2026-06-21",
+    "kickoffTime": "2:00 PM",
+    "opponent": "The Sailles SC",
+    "homeAway": "Away",
+    "venue": "The Sailles SC Home Field",
+    "competition": "GPSLO19 Regular Season",
+    "goalsFor": 4,
+    "goalsAgainst": 2,
+    "result": "W",
+    "goalScorers": [
+      {
+        "playerId": 0,
+        "name": "Sava Berger",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Aidan Dyga",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Finn Kichi",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "John Sakson",
+        "minute": 0
+      }
+    ],
+    "assists": [],
+    "yellowCards": [],
+    "redCards": [],
+    "notes": ""
+  },
+  {
+    "id": "match-004",
+    "date": "2026-06-14",
+    "kickoffTime": "8:00 PM",
+    "opponent": "Helltown FC",
+    "homeAway": "Home",
+    "venue": "Russellton Soccer Field #2",
+    "competition": "GPSLO19 Regular Season",
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "result": "W",
+    "goalScorers": [
+      {
+        "playerId": 0,
+        "name": "Lucas Henderson",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Mason Lewis",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Billy Sprott",
+        "minute": 0
+      }
+    ],
+    "assists": [],
+    "yellowCards": [],
+    "redCards": [],
+    "notes": ""
+  },
+  {
+    "id": "match-003",
+    "date": "2026-06-07",
+    "kickoffTime": "8:00 PM",
+    "opponent": "Football Team FC",
+    "homeAway": "Home",
+    "venue": "Russellton Soccer Field #2",
+    "competition": "GPSLO19 Regular Season",
+    "goalsFor": 7,
+    "goalsAgainst": 1,
+    "result": "W",
+    "goalScorers": [
+      {
+        "playerId": 0,
+        "name": "Cadan Bennett",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Sava Berger",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Colin Elder",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Lucas Henderson",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Cale Klaff",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Nick Magee",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Orrin Milcic",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Billy Sprott",
+        "minute": 0
+      }
+    ],
+    "assists": [],
+    "yellowCards": [],
+    "redCards": [],
+    "notes": ""
+  },
+  {
+    "id": "match-002",
+    "date": "2026-05-31",
+    "kickoffTime": "7:00 PM",
+    "opponent": "Giggle Gang FC",
+    "homeAway": "Home",
+    "venue": "Russellton Soccer Field #2",
+    "competition": "GPSLO19 Regular Season",
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "result": "W",
+    "goalScorers": [
+      {
+        "playerId": 0,
+        "name": "Will Gruca",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "James Jayamohan",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Finn Kichi",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Nick Magee",
+        "minute": 0
+      }
+    ],
+    "assists": [],
+    "yellowCards": [],
+    "redCards": [],
+    "notes": ""
+  },
+  {
+    "id": "match-001",
+    "date": "2026-05-17",
+    "kickoffTime": "9:00 PM",
+    "opponent": "Dukes of Hazard",
+    "homeAway": "Home",
+    "venue": "Russellton Soccer Field #2",
+    "competition": "GPSLO19 Regular Season",
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "result": "L",
+    "goalScorers": [
+      {
+        "playerId": 0,
+        "name": "Nick Magee",
+        "minute": 0
+      }
+    ],
+    "assists": [],
+    "yellowCards": [],
+    "redCards": [],
+    "notes": ""
+  }
+]
