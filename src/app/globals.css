@@ -131,6 +131,16 @@
 }
 
 /* Gheny FC custom styles */
+/* Deep navy base with faint navy/gold glows — matches the club crest */
+.gheny-bg {
+  background-color: #0b1730;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(30, 58, 112, 0.55), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 85% 40%, rgba(201, 162, 39, 0.07), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 10% 80%, rgba(30, 58, 112, 0.35), transparent 70%);
+  background-attachment: fixed;
+}
+
 .gradient-text {
   background: linear-gradient(135deg, #e94560, #ff6b35);
   -webkit-background-clip: text;
@@ -152,9 +162,9 @@
 .badge-L { background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3); }
 
 .hero-overlay {
-  background: linear-gradient(135deg, rgba(10,10,15,0.92) 0%, rgba(22,33,62,0.85) 50%, rgba(10,10,15,0.92) 100%);
+  background: linear-gradient(135deg, rgba(11,23,48,0.92) 0%, rgba(22,33,62,0.85) 50%, rgba(11,23,48,0.92) 100%);
 }
 
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #0a0a0f; }
+::-webkit-scrollbar-track { background: #0b1730; }
 ::-webkit-scrollbar-thumb { background: #e94560; border-radius: 3px; }

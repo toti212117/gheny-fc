@@ -28,7 +28,7 @@ export default async function PlayerProfilePage({ params }: Props) {
 
         <div className="bg-[#12121a] border border-white/5 rounded-2xl overflow-hidden">
           {/* Hero */}
-          <div className="aspect-video bg-gradient-to-br from-[#16213e] to-[#0a0a0f] flex items-center justify-center relative">
+          <div className="aspect-video bg-gradient-to-br from-[#16213e] to-[#0b1730] flex items-center justify-center relative">
             {player.photo ? (
               <img src={player.photo} alt={player.name} className="w-full h-full object-cover object-top" />
             ) : (
@@ -55,7 +55,7 @@ export default async function PlayerProfilePage({ params }: Props) {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-[#0a0a0f] rounded-xl p-4">
+              <div className="bg-[#0b1730] rounded-xl p-4">
                 <p className="text-gray-500 text-xs uppercase tracking-wider mb-2 flex items-center gap-1.5">
                   <Star size={12} className="text-[#e94560]" /> Highest Level
                 </p>
@@ -63,7 +63,7 @@ export default async function PlayerProfilePage({ params }: Props) {
               </div>
 
               {player.snapchat && player.snapchat !== 'No Snap' && (
-                <div className="bg-[#0a0a0f] rounded-xl p-4">
+                <div className="bg-[#0b1730] rounded-xl p-4">
                   <p className="text-gray-500 text-xs uppercase tracking-wider mb-2">Snapchat</p>
                   <p className="text-yellow-400 font-semibold">@{player.snapchat}</p>
                 </div>

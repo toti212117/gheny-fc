@@ -15,7 +15,7 @@ const sponsors = [
 
 export default function Sponsors() {
   return (
-    <section className="py-20 px-4 bg-[#0a0a0f]">
+    <section className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -31,7 +31,7 @@ export default function UpcomingMatch({ match }: Props) {
             <div className="h-px flex-1 bg-white/10" />
           </div>
 
-          <div className="bg-gradient-to-br from-[#16213e] to-[#0a0a0f] border border-[#e94560]/20 rounded-2xl p-6 sm:p-8 relative overflow-hidden">
+          <div className="bg-gradient-to-br from-[#16213e] to-[#0b1730] border border-[#e94560]/20 rounded-2xl p-6 sm:p-8 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#e94560]/5 rounded-full -translate-y-32 translate-x-32" />
 
             {daysUntil > 0 && (
@@ -55,7 +55,7 @@ export default function UpcomingMatch({ match }: Props) {
               </div>
 
               <div className="text-center">
-                <div className="w-20 h-20 rounded-full bg-[#1e1e2e] flex items-center justify-center mx-auto mb-3 text-3xl">⚽</div>
+                <div className="w-20 h-20 rounded-full bg-[#16264a] flex items-center justify-center mx-auto mb-3 text-3xl">⚽</div>
                 <p className="font-bold text-white">{match.opponent}</p>
               </div>
             </div>

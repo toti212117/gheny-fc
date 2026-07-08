@@ -58,7 +58,7 @@ export default async function MatchReportPage({ params }: Props) {
                 <p className="text-gray-500 text-xs mt-2 uppercase tracking-wider">Full Time</p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 rounded-full bg-[#1e1e2e] flex items-center justify-center mx-auto mb-3 text-3xl">⚽</div>
+                <div className="w-20 h-20 rounded-full bg-[#16264a] flex items-center justify-center mx-auto mb-3 text-3xl">⚽</div>
                 <p className="font-bold text-white text-lg">{match.opponent}</p>
               </div>
             </div>

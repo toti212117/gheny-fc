@@ -54,7 +54,7 @@ export default function LatestMatch({ match }: Props) {
                   <p className="text-gray-500 text-xs mt-2 uppercase tracking-wider">Full Time</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 rounded-full bg-[#1e1e2e] flex items-center justify-center mx-auto mb-3 text-2xl">⚽</div>
+                  <div className="w-16 h-16 rounded-full bg-[#16264a] flex items-center justify-center mx-auto mb-3 text-2xl">⚽</div>
                   <p className="font-bold text-white text-lg">{match.opponent}</p>
                 </div>
               </div>

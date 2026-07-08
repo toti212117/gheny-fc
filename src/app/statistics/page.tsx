@@ -60,7 +60,7 @@ export default function StatisticsPage() {
             { label: 'Avg Goals', value: avgGoals, color: '#e94560' },
             { label: 'Streak', value: streak, color: '#a855f7' },
           ].map(s => (
-            <div key={s.label} className="bg-[#0a0a0f] border border-white/5 rounded-lg p-3 text-center">
+            <div key={s.label} className="bg-[#0b1730] border border-white/5 rounded-lg p-3 text-center">
               <p className="text-2xl font-black" style={{ color: s.color ?? '#fff' }}>{s.value}</p>
               <p className="text-gray-600 text-xs">{s.label}</p>
             </div>

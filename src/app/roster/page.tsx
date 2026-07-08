@@ -42,7 +42,7 @@ export default function RosterPage() {
               <Link href={`/roster/${player.id}`}>
                 <div className="bg-[#12121a] border border-white/5 hover:border-[#e94560]/40 rounded-xl overflow-hidden card-glow cursor-pointer group">
                   {/* Photo */}
-                  <div className="aspect-square bg-gradient-to-br from-[#16213e] to-[#0a0a0f] flex items-center justify-center relative">
+                  <div className="aspect-square bg-gradient-to-br from-[#16213e] to-[#0b1730] flex items-center justify-center relative">
                     {player.photo ? (
                       <img src={player.photo} alt={player.name} className="w-full h-full object-cover" />
                     ) : (
