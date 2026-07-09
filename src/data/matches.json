@@ -1,5 +1,48 @@
 [
   {
+    "id": "match-007",
+    "date": "2026-07-07",
+    "kickoffTime": "6:00 PM",
+    "opponent": "Three Rivers FC",
+    "homeAway": "Away",
+    "venue": "Hamilton Park",
+    "competition": "GPSLO19 Regular Season",
+    "goalsFor": 5,
+    "goalsAgainst": 2,
+    "result": "W",
+    "goalScorers": [
+      {
+        "playerId": 0,
+        "name": "Aidan Dyga",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Colin Elder",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Finn Kichi",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Xavier Mwaura",
+        "minute": 0
+      },
+      {
+        "playerId": 0,
+        "name": "Xavier Mwaura",
+        "minute": 0
+      }
+    ],
+    "assists": [],
+    "yellowCards": [],
+    "redCards": [],
+    "notes": ""
+  },
+  {
     "id": "match-006",
     "date": "2026-06-28",
     "kickoffTime": "12:00 PM",
